@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Website Konversi Suhu</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Kalkulator Suhu</h1>
+            <p>Konvernsi SuhuDari Celsius Ke Fahrenheit</p>
+        </header>
+
+        <section class="calculator">
+            <form id="calculatorForm">
+                <div class="input-container">
+                    <label for="CelsiustoFahreinheit">Celsius:</label>
+                    <input type="number" id="CelsiustoFahreinheit" placeholder="Masukkan Angka">
+                </div>
+
+                <button type="button" onclick="hitung()">Konversi</button>
+            </form>
+            <h1>Fahrenheit</h1>
+
+            <div id="result" class="result-container"></div>
+            <h1>Formula</h1>
+            <div id="formula" class="formula-container">
+             
+            </div>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
